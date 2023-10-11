@@ -1,0 +1,156 @@
+.hero h1 {
+    color: #42AE68;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.text-color-primary {
+    color: #42AE68;
+}
+
+.text-green-primary {
+    color: #409D61;
+}
+
+.text-green-secondary {
+    color: #1A8A42;
+}
+
+.text-green-third {
+    color: #1FB480;
+}
+
+.text-yellow {
+    color: #FFE152;
+}
+
+.text-red {
+    color: #FF4155;
+}
+
+.text-blue {
+    color: #66BAED;
+}
+
+.text-blue-secondary {
+    color: #77C6CF;
+}
+
+.text-dark-blue {
+    color: #1E4857;
+}
+
+.text-gray {
+    color: #AEAEAE;
+}
+
+.text-gray-secondary {
+    color: #8F8F8F;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-body.gray {
+    background-color: #F9F9F9;
+}
+
+.background-map {
+    background-image: url("/assets/img/photos/background.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.background-map h1 {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.program-card:hover,
+.program-card:hover path {
+    background-color: #42AE68;
+    fill: #ffffff;
+    color: #ffffff;
+    /* pointer-events: auto; */
+}
+
+.card-news p {
+    font-size: 12px;
+}
+
+.card-news a {
+    font-size: 14px;
+}
+
+.background-map p {
+    color: #1E4857 font-weight: 600
+}
+
+section.home {
+    margin-bottom: 160px;
+}
+
+.card-tour {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+}
+
+.card-tour .card-img {
+    transition: transform 0.3s;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+    color: #ffffff;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+}
+
+.card-tour:hover .card-img {
+    transform: scale(1.1);
+}
+
+.card-tour:hover .card-overlay {
+    transform: translateY(0);
+}
+
+.overlay-text {
+    color: white;
+    margin: 0;
+}
+
+.bg-color-primary {
+    background-color: #42AE68;
+}
+
+.page-link.active, .active > .page-link {
+    z-index: 3;
+    background-color: #42AE68;
+    border-color: #42AE68;
+}
+
+.pagination {
+    justify-content: center !important;
+}
+
+.pagination li{
+    padding-inline: 4px;
+}
+
+@media (max-width: 767.98px) {
+    .hero h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
